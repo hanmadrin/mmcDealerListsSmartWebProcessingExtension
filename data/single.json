@@ -1,0 +1,126 @@
+{
+    "auctionInformation": {
+        "auctionEndTime": "2025-02-17T19:30:00Z",
+        "auctionExtendEndTime": "2025-02-17T19:30:00Z",
+        "auctionStartTime": "2025-02-17T14:00:00Z",
+        "buyNowEligible": true,
+        "dayIndicator": "Unspecified/Other",
+        "offerAutoAcceptEndTime": "2025-02-14T22:30:00Z",
+        "offerEligible": false,
+        "auctionItemUuid": "9963a754-d03e-43df-ad34-233b3b8c5dc2",
+        "auctionLane": "Open"
+    },
+    "buyerTips": [],
+    "conditionReportSummary": {
+        "disclosures": [],
+        "limitedArbitration": false,
+        "damageSummary": {
+            "damageAmount": 0,
+            "damageItemCount": 4,
+            "damages": [
+                {
+                    "type": "Exterior",
+                    "location": "LR Door",
+                    "description": "Dent/No Paint Dmg PDR/1"
+                },
+                {
+                    "type": "Exterior",
+                    "location": "RF Door",
+                    "description": "Mult Dents/No Paint Dmg PDR/2"
+                },
+                {
+                    "type": "Exterior",
+                    "location": "RF Wheel",
+                    "description": "Curb Rash 1\" to 2\""
+                },
+                {
+                    "type": "Exterior",
+                    "location": "RR Door",
+                    "description": "Mult Dents/No Paint Dmg PDR/2"
+                }
+            ]
+        }
+    },
+    "dealerInventoryInformation": {
+        "distance": 156.2621749462313,
+        "onBidList": false,
+        "reviewed": false,
+        "vdpViewed": false
+    },
+    "hitCount": 6,
+    "inventoryItemUuid": "08f5e15f-83db-4628-95d7-df72550d5eb2",
+    "itemInformation": {
+        "exteriorGenericColor": "Red",
+        "imageCount": 2,
+        "interiorColor": "Global Black",
+        "interiorType": "Leather Seats",
+        "leadImageUrl": "https://inspections.ally.com/inspection-image/250130/1c4rjkbgxm8149680_1_30_2025_t09_image334750608.jpg",
+        "make": "Jeep",
+        "model": "Grand Cherokee L",
+        "modelYear": 2021,
+        "odometer": 106104,
+        "powerTrain": {
+            "drivetrainAbbreviation": "4WD",
+            "engineSize": "3.6L",
+            "engineType": "6 Cylinder",
+            "fuelType": "Gasoline Fuel"
+        },
+        "stockNumber": "",
+        "trim": "Limited",
+        "vin": "1C4RJKBGXM8149680",
+        "bodyConfiguration": "4 Door Wagon",
+        "vehicleTypeCode": "LSE"
+    },
+    "postedDate": "2025-02-11T04:34:22Z",
+    "seller": {
+        "dealerUuid": "fdaf48e8-c872-4e14-ab4a-145a97968a14",
+        "dealerName": "Ally"
+    },
+    "sellerComment": "",
+    "sellerGroup": {
+        "groupUuid": "2b6c22e0-25a2-4030-acb4-70218e6bc532",
+        "groupName": "Ally"
+    },
+    "storageLocationSummary": {
+        "city": "NORTH PLAINFIELD",
+        "state": "NJ",
+        "zip": "07060-6614"
+    },
+    "valuation": {
+        "spreadToBookValues": [
+            {
+                "providerName": "Black Book",
+                "wholesaleAverageSTB": 0.9253,
+                "wholeSaleCleanSTB": 0.8351,
+                "retailCleanSTB": 0.7216
+            },
+            {
+                "providerName": "NADA",
+                "wholesaleAverageSTB": 0.8298,
+                "wholeSaleCleanSTB": 0.7895,
+                "retailCleanSTB": 0.6747
+            }
+        ],
+        "bookValues": [
+            {
+                "providerName": "Black Book",
+                "wholesaleAveragePrice": 21075,
+                "wholeSaleCleanPrice": 23350,
+                "retailCleanPrice": 27025
+            },
+            {
+                "providerName": "NADA",
+                "wholesaleAveragePrice": 23500,
+                "wholeSaleCleanPrice": 24700,
+                "retailCleanPrice": 28900
+            }
+        ],
+        "buyNowPrice": 20100,
+        "currentPrice": 20400,
+        "lowestOpeningPrice": false,
+        "msrp": 53015,
+        "openingPrice": 19500
+    },
+    "itemInformationUpdatedDate": "2025-02-17T07:06:49.480027Z",
+    "reservationInfo": {}
+}
