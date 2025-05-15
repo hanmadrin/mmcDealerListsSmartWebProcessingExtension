@@ -1104,7 +1104,7 @@ const contentSetup = async () => {
                 action: "openNewTab"
             });
         });
-        // return;
+        return;
         while (true) {
             const day = isEligibleDay();
             const hour = isEligibleHourSection();
