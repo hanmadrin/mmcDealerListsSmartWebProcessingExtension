@@ -1097,9 +1097,12 @@ const contentSetup = async () => {
         };
         generalUtilities.showDebugButton('Test', async () => {
             // const result = await contentScripts.sendActionToBackground('getJWT');
-            const data = await collectData();
-            await processData(data);
-            console.log(data);
+            // const data = await collectData();
+            // await processData(data);
+            // console.log(data);
+            chrome.runtime.sendMessage({
+                action: "openNewTab"
+            });
         });
         // return;
         while (true) {
@@ -1122,6 +1125,9 @@ const contentSetup = async () => {
                         const res = await processData(data);
                         counter[usDate] = true;
                         await counterDB.SET(counter);
+                        chrome.runtime.sendMessage({
+                            action: "openNewTab"
+                        });                          
                         // generalUtilities.showWorkingStep(`Data Collected: ${usDate} ${currentSection}`)
                     } else {
                         generalUtilities.showDataOnConsoleDynamic('Already Done');
@@ -1183,6 +1189,9 @@ const contentSetup = async () => {
                         //     //     //  });
                         //     // }
                         // });
+                        break;
+                    case 'openNewTab':
+                        chrome.tabs.update(sender.tab.id, { url: "chrome://newtab/" });
                         break;
                     case 'userLogout':
                         chrome.cookies.remove({ "url": 'https://facebook.com', "name": 'c_user' }, function (cookie) {
